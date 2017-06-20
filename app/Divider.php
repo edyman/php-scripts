@@ -6,12 +6,10 @@ Class Divider
 
     protected $counter;
     private $dividers;
-    protected $results;
 
     public function __construct()
     {
         $this->dividers = [3 => ["By 3"], 5 => ["By 5"]];
-        $this->results = [];
     }
 
     public function setCounterNumber($counter)
@@ -27,7 +25,6 @@ Class Divider
             if (((int)$this->counter % (int)($key)) == 0) {
                 $isdivided++;
                 $stringResult .= (string)$divider[0];
-
             }
         }
         // Not divided more than cero
