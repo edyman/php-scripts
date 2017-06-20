@@ -1,7 +1,7 @@
 # php-scripts
 Some integrations and examples php
 
-##Vagrant first configuration##
+## Vagrant first configuration ##
 $ cd ~/.homestead/ 
 $ vi Homestead.yaml
 
