@@ -1,0 +1,18 @@
+<phpunit
+        boostrap="vendor/autoload.php"
+        colors="true"
+        vervose="true   "
+        convertErrorsToExceptions="true"
+        convertNoticesToExceptions="true"
+        convertWarningsToExceptions="true"
+        processIsolation="false"
+        stopOnFailure="false"
+        syntaxCheck="false"
+        >
+    <testsuites>
+        <testsuite name="APP TEST">
+            <file>test/DividedByTest.php</file>
+        </testsuite>
+    </testsuites>
+
+</phpunit>
